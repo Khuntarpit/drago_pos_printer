@@ -13,7 +13,10 @@ dependencies:
   hex: ^0.2.0
   image: ^3.0.2
   drago_blue_printer: ^0.0.2
-  drago_usb_printer: ^0.0.1
+  drago_usb_printer:
+    git:
+      url: https://github.com/weetech/drago_usb_printer.git
+      ref: main
   network_info_plus: ^2.1.2
   printing: ^5.6.6
   win32: ^2.3.10
