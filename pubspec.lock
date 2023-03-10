@@ -25,14 +25,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.10.0"
-  barcode:
-    dependency: transitive
-    description:
-      name: barcode
-      sha256: "52570564684bbb0240a9f1fdb6bad12adc5e0540103c1c96d6dd550bd928b1c9"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.3"
   boolean_selector:
     dependency: transitive
     description:
@@ -49,14 +41,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
-  charcode:
-    dependency: transitive
-    description:
-      name: charcode
-      sha256: fb98c0f6d12c920a02ee2d998da788bca066ca5f148492b7085ee23372b12306
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.1"
   clock:
     dependency: transitive
     description:
@@ -101,8 +85,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: main
-      resolved-ref: "9a24251721d059672eb37267f5a29b889807f028"
+      ref: HEAD
+      resolved-ref: "00890a1d3476467782e5aea63b322c216fa1e461"
       url: "https://github.com/Khuntarpit/drago_usb_printer.git"
     source: git
     version: "0.0.1"
@@ -115,7 +99,7 @@ packages:
     source: hosted
     version: "1.3.1"
   ffi:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: ffi
       sha256: a38574032c5f1dd06c4aee541789906c12ccaab8ba01446e800d9c5b79c4a978
@@ -145,22 +129,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.0"
-  http:
-    dependency: transitive
-    description:
-      name: http
-      sha256: "2ed163531e071c2c6b7c659635112f24cb64ecbebf6af46b550d536c0b1aa112"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.13.4"
-  http_parser:
-    dependency: transitive
-    description:
-      name: http_parser
-      sha256: e362d639ba3bc07d5a71faebb98cde68c05bfbcfbbb444b60b6f60bb67719185
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.0.0"
   image:
     dependency: "direct main"
     description:
@@ -265,22 +233,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
-  path_parsing:
-    dependency: transitive
-    description:
-      name: path_parsing
-      sha256: "9508ebdf1c3ac3a68ad5fb15edab8b026382999f18f77352349e56fbd74183ac"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  pdf:
-    dependency: transitive
-    description:
-      name: pdf
-      sha256: "10659b915e65832b106f6d1d213e09b789cc1f24bf282ee911e49db35b96be4d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.8.4"
   permission_handler:
     dependency: transitive
     description:
@@ -337,22 +289,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
-  printing:
-    dependency: "direct main"
-    description:
-      name: printing
-      sha256: "4df9e22bd4cb2ecea67183e5b328711b10276127b8878d9d5cb60ccd4c24a77c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.9.3"
-  qr:
-    dependency: transitive
-    description:
-      name: qr
-      sha256: df93259c1b5cca444b77e0b2b0e133219b1650d0d9b848c35097da3a8d4123f3
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -422,14 +358,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  win32:
-    dependency: "direct main"
-    description:
-      name: win32
-      sha256: "6b75ac2ddd42f5c226fdaf4498a2b04071c06f1f2b8f7ab1c3f77cc7f2285ff1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.7.0"
   xml:
     dependency: transitive
     description:

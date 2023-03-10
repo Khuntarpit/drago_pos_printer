@@ -14,12 +14,8 @@ dependencies:
   webcontent_converter:
     git:
       url: https://github.com/selvam920/webcontent_converter
-  charset_converter: ^2.1.0
   intl: ^0.17.0
   path_provider: ^2.0.2
-  open_file: ^3.2.1
-  # qr_flutter: ^4.0.0
-  printing:
 
   drago_pos_printer:
     path: ../
@@ -30,7 +26,6 @@ dependencies:
   pdf:
 
 dependency_overrides:
-  charset_converter: ^2.1.0
 
 dev_dependencies:
   flutter_test:

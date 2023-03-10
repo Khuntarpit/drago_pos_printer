@@ -2,13 +2,10 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:flutter/services.dart';
 import 'package:image/image.dart' as img;
-import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart' as pf;
 import 'package:pdf/widgets.dart' as pw;
 import 'package:drago_pos_printer/drago_pos_printer.dart';
-import 'package:printing/printing.dart';
-// import 'package:qr_flutter/qr_flutter.dart';
 
 class ESCPrinterService {
   final Uint8List? receipt;
@@ -49,8 +46,6 @@ class ESCPrinterService {
 
     await file.writeAsBytes(img.encodePng(decodeImage));
 
-    OpenFile.open(fullPath);
-
     bytes += generator.image(_resize);
     bytes += generator.feed(2);
     bytes += generator.cut();
@@ -89,12 +84,6 @@ class ESCPrinterService {
     Generator generator =
         Generator(_paperSizeWidthMM!, _maxPerLine!, _profile!);
 
-    await for (var page in Printing.raster(await _generatePdf(), dpi: 203)) {
-      final image = page.asImage();
-      bytes += generator.image(image);
-      bytes += generator.feed(2);
-      bytes += generator.cut();
-    }
     return bytes;
   }
 

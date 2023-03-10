@@ -57,14 +57,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  charset_converter:
-    dependency: "direct main"
-    description:
-      name: charset_converter
-      sha256: "3d80e0af63536e91e8b8b41274cefe884c4551c95264cd60216e45e944e1e94e"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   clock:
     dependency: transitive
     description:
@@ -132,8 +124,8 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: main
-      resolved-ref: "9a24251721d059672eb37267f5a29b889807f028"
+      ref: HEAD
+      resolved-ref: "00890a1d3476467782e5aea63b322c216fa1e461"
       url: "https://github.com/Khuntarpit/drago_usb_printer.git"
     source: git
     version: "0.0.1"
@@ -320,14 +312,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.0"
-  open_file:
-    dependency: "direct main"
-    description:
-      name: open_file
-      sha256: "5cd0288033d613ee7908aa974b7ff00805ae55d253f64d311603cf2e30613ca8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.1"
   path:
     dependency: transitive
     description:
@@ -480,14 +464,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
-  printing:
-    dependency: "direct main"
-    description:
-      name: printing
-      sha256: "84008e5f03dadeacac68ba345fc3e1b583d1ec35e78fd39cdd92a6b219ff0b2d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.7.4"
   process:
     dependency: transitive
     description:

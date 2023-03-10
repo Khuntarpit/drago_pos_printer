@@ -16,11 +16,7 @@ dependencies:
   drago_usb_printer:
     git:
       url: https://github.com/Khuntarpit/drago_usb_printer.git
-      ref: main
   network_info_plus: ^2.1.2
-  printing: ^5.6.6
-  win32: ^2.3.10
-  ffi:
 
 dev_dependencies:
   flutter_test:
