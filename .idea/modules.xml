@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/pos_printing.iml" filepath="$PROJECT_DIR$/pos_printing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/pos_printing_android.iml" filepath="$PROJECT_DIR$/android/pos_printing_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/drago_pos_printer_example_android.iml" filepath="$PROJECT_DIR$/example/android/drago_pos_printer_example_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/drago_pos_printer.iml" filepath="$PROJECT_DIR$/.idea/drago_pos_printer.iml" />
     </modules>
   </component>
 </project>

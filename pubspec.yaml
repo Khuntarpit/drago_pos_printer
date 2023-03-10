@@ -20,7 +20,7 @@ dependencies:
   network_info_plus: ^2.1.2
   printing: ^5.6.6
   win32: ^2.3.10
-  ffi: ^2.0.1
+  ffi:
 
 dev_dependencies:
   flutter_test:
