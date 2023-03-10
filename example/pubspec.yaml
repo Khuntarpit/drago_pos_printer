@@ -15,7 +15,6 @@ dependencies:
     git:
       url: https://github.com/selvam920/webcontent_converter
   intl: ^0.17.0
-  path_provider: ^2.0.2
 
   drago_pos_printer:
     path: ../

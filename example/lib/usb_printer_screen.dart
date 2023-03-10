@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:drago_pos_printer/drago_pos_printer.dart';
 import 'package:drago_pos_printer_example/webview_helper.dart';
 import 'package:webcontent_converter/webcontent_converter.dart';
@@ -184,12 +183,6 @@ class _USBPrinterScreenState extends State<USBPrinterScreen> {
         paperSizeWidthMM: _manager!.paperSizeWidthMM,
         maxPerLine: _manager!.maxPerLine,
       );
-      if (bytes.length > 0) {
-        var dir = await getTemporaryDirectory();
-        var path = dir.path + "\\receipt.jpg";
-        File file = File(path);
-        await file.writeAsBytes(bytes);
-      }
     } else
       data = bytes;
     if (mounted) setState(() => _data = data);

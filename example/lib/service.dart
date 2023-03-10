@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'package:flutter/services.dart';
 import 'package:image/image.dart' as img;
-import 'package:path_provider/path_provider.dart';
 import 'package:pdf/pdf.dart' as pf;
 import 'package:pdf/widgets.dart' as pw;
 import 'package:drago_pos_printer/drago_pos_printer.dart';
@@ -38,13 +37,6 @@ class ESCPrinterService {
     if (decodeImage == null) throw Exception('decoded image is null');
     final img.Image _resize =
         img.copyResize(decodeImage, width: _paperSizeWidthMM);
-
-    String dir = (await getTemporaryDirectory()).path;
-    String fullPath = '$dir/abc.png';
-    print("local file full path ${fullPath}");
-    File file = File(fullPath);
-
-    await file.writeAsBytes(img.encodePng(decodeImage));
 
     bytes += generator.image(_resize);
     bytes += generator.feed(2);
